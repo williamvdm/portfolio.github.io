@@ -21,7 +21,7 @@ import SassLogo from "../../assets/svg/sass.svg";
 import VueLogo from "../../assets/svg/vue.svg";
 
 function Home() {
-    // const [isOpenToWork, setIsOpenToWork] = useState(true);
+    const [isOpenToWork, setIsOpenToWork] = useState(true);
 
     return (
         <div className="flex justify-center bg-white dark:bg-darkblue min-h-screen p-8 text-black dark:text-gray-200">
