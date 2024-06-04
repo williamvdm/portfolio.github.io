@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 // Layouts
-import Nav from "../../layouts/nav.js";
+// import Nav from "../../layouts/nav.js";
 import Footer from "../../layouts/footer.js";
 
 // Components
@@ -25,34 +25,34 @@ function Home() {
 
     return (
         <div className="flex justify-center bg-white dark:bg-darkblue min-h-screen p-8 text-black dark:text-gray-200">
-            <div className="container mx-auto lg:w-1/3">
+            <div className="container mx-auto xl:w-1/3">
                 {isOpenToWork && <Notify />}
                 {/* <Nav /> */}
-                <section className="mt-12 p-8 flex mx-auto flex-col lg:flex-row items-center justify-center rounded">
-                    <img className="rounded-full w-52 mb-4 lg:mb-0 lg:mr-12 self-center" src={Me} alt="William" />
-                    <div className="text-center lg:text-left">
+                <section className="mt-12 p-8 flex mx-auto flex-col xl:flex-row items-center justify-center rounded">
+                    <img className="rounded-full w-52 mb-4 xl:mb-0 xl:mr-12 self-center" src={Me} alt="William" />
+                    <div className="text-center xl:text-left">
                         <h1 className="text-6xl font-bold">Hello, I'm William.</h1>
-                        <p className="text-xl">I am a front- and back-end developer with 1+ years of experience.</p>
+                        <p className="text-3xl">I am a front- and back-end developer with 1+ years of experience.</p>
                     </div>
                 </section>
-                <section className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 mt-8">
+                <section className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 gap-8 mt-8">
                     <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-4 flex justify-center items-center">
-                        <img className="w-12" src={ReactLogo} alt="React JS" />
+                        <img className="min-w-12 w-12" src={ReactLogo} alt="React JS" title="React JS" />
                     </div>
                     <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-4 flex justify-center items-center">
-                        <img className="w-12" src={TailwindLogo} alt="Tailwind CSS" />
+                        <img className="min-w-12 w-12" src={TailwindLogo} alt="Tailwind CSS" title="Tailwind CSS" />
                     </div>
                     <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-4 flex justify-center items-center">
-                        <img className="w-12" src={JavascriptLogo} alt="JavaScript" />
+                        <img className="min-w-12 w-12" src={JavascriptLogo} alt="JavaScript" title="JavaScript" />
                     </div>
                     <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-4 flex justify-center items-center">
-                        <img className="w-12" src={PythonLogo} alt="Python" />
+                        <img className="min-w-12 w-12" src={PythonLogo} alt="Python" title="Python" />
                     </div>
                     <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-4 flex justify-center items-center">
-                        <img className="w-12" src={CsharpLogo} alt="C Sharp" />
+                        <img className="min-w-12 w-12" src={CsharpLogo} alt="C Sharp" title="C Sharp" />
                     </div>
                     <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-4 flex justify-center items-center">
-                        <img className="w-12" src={SqlLogo} alt="SQL" />
+                        <img className="min-w-12 w-12" src={SqlLogo} alt="SQL" title="MSSQL" />
                     </div>
                 </section>
                 <section className="about mt-14">
@@ -60,17 +60,17 @@ function Home() {
                     <p className="text-lg mb-4">
                         I enjoy building responsive and user-friendly web applications that solve real-world problems. I am constantly learning and exploring new technologies to enhance my skills and stay up-to-date with industry trends.
                     </p>
-                    <a href="https://github.com/williamvdm" target="_blank">
+                    <a href="mailto:williamvdm@live.nl">
                             <div className="bg-azure dark:bg-azure rounded-2xl p-4 flex justify-center items-center">
-                                <h1 className="text-xl font-bold">Contact me!</h1>
+                                <h1 className="text-xl font-bold text-white dark:text-black">Contact me!</h1>
                             </div>
                         </a>
                 </section>
                 <section className="projects mt-14">
                     <h2 className="text-3xl font-bold mb-4">Projects</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div className="grid grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-8">
                         {/* Project 1 */}
-                        <a href="https://www.meijmat.nl" target="_blank">
+                        <a href="https://www.meijmat.nl" target="_blank" rel="noreferrer noopener">
                             <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-8">
                                 <h1 className="text-2xl mb-4">Meijmat BV</h1>
                                 <p>
@@ -78,7 +78,7 @@ function Home() {
                                     I created a new one for them using WordPress and provided guides to help them make changes themselves.
                                 </p>
                                 <div className="mt-8 flex space-x-2">
-                                    <img src={WordpressLogo} alt="WordPress" className="w-6" />
+                                    <img src={WordpressLogo} alt="WordPress" title="WordPress" className="w-6" />
                                 </div>
                             </div>
                         </a>
@@ -90,13 +90,13 @@ function Home() {
                                 These were then made functional in the Vue.js framework.
                             </p>
                             <div className="mt-8 flex space-x-2">
-                                <img src={VueLogo} alt="Vue.js" className="w-6" />
-                                <img src={LaravelLogo} alt="Vue.js" className="w-6" />
-                                <img src={SassLogo} alt="Vue.js" className="w-6" />
+                                <img src={VueLogo} alt="Vue.js" title="Vue.js" className="w-6" />
+                                <img src={LaravelLogo} alt="Laravel" title="Laravel" className="w-6" />
+                                <img src={SassLogo} alt="Sass" title="Sass" className="w-6" />
                             </div>
                         </div>
                         {/* Project 3 */}
-                        <a href="https://www.competa.com" target="_blank">
+                        <a href="https://www.competa.com" target="_blank" rel="noreferrer noopener">
                             <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-8">
                                 <h1 className="text-2xl mb-4">Competa IT</h1>
                                 <p>
@@ -104,7 +104,7 @@ function Home() {
                                     Browser compatibility, user experience and responsiveness were a high priority.
                                 </p>
                                 <div className="mt-8 flex space-x-2">
-                                    <img src={WordpressLogo} alt="WordPress" className="w-6" />
+                                    <img src={WordpressLogo} alt="WordPress" title="WordPress" className="w-6" />
                                 </div>
                             </div>
                         </a>
@@ -116,14 +116,14 @@ function Home() {
                                 Making sure it looks good on different devices was really important while I was working on it.
                             </p>
                             <div className="mt-8 flex space-x-2">
-                                <img src={TailwindLogo} alt="WordPress" className="w-6" />
-                                <img src={ReactLogo} alt="WordPress" className="w-6" />
-                                <img src={JavascriptLogo} alt="WordPress" className="w-6" />
+                                <img src={TailwindLogo} alt="Tailwind CSS" title="Tailwind CSS" className="w-6" />
+                                <img src={ReactLogo} alt="React JS" title="React JS" className="w-6" />
+                                <img src={JavascriptLogo} alt="JavaScript" title="JavaScript" className="w-6" />
                             </div>
                         </div>
-                        <a href="https://github.com/williamvdm" target="_blank">
+                        <a href="https://github.com/williamvdm" target="_blank" rel="noreferrer noopener">
                             <div className="bg-azure dark:bg-azure rounded-2xl p-4 flex justify-center items-center">
-                                <h1 className="text-xl font-bold">View more on GitHub</h1>
+                                <h1 className="text-xl font-bold text-white dark:text-black">View more on GitHub</h1>
                             </div>
                         </a>
                     </div>
