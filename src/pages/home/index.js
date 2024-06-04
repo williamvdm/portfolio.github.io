@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 // Layouts
 // import Nav from "../../layouts/nav.js";
@@ -26,7 +26,7 @@ function Home() {
     return (
         <div className="flex justify-center bg-white dark:bg-darkblue min-h-screen p-8 text-black dark:text-gray-200">
             <div className="container mx-auto xl:w-1/3">
-                {/* {isOpenToWork && <Notify />} */}
+                <Notify />
                 {/* <Nav /> */}
                 <section className="mt-12 p-8 flex mx-auto flex-col xl:flex-row items-center justify-center rounded">
                     <img className="rounded-full w-52 mb-4 xl:mb-0 xl:mr-12 self-center" src={Me} alt="William" />
