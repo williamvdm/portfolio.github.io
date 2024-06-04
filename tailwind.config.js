@@ -10,6 +10,7 @@ module.exports = {
         ghost: '#F5F5F5',
         wafer: '#474554',
         azure: '#009CF8',
+        cerulean: '#00BBFD'
       }
     },
   },

@@ -62,7 +62,7 @@ function Home() {
                     </p>
                     <a href="mailto:williamvdm@live.nl">
                             <div className="bg-azure dark:bg-azure rounded-2xl p-4 flex justify-center items-center">
-                                <h1 className="text-xl font-bold text-white dark:text-black">Contact me!</h1>
+                                <h1 className="text-xl font-bold text-white dark:text-white">Contact me!</h1>
                             </div>
                         </a>
                 </section>
@@ -71,7 +71,7 @@ function Home() {
                     <div className="grid grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-8">
                         {/* Project 1 */}
                         <a href="https://www.meijmat.nl" target="_blank" rel="noreferrer noopener">
-                            <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-8">
+                            <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-8 hover:scale-105 ease-in-out duration-300">
                                 <h1 className="text-2xl mb-4">Meijmat BV</h1>
                                 <p>
                                     Meijmat, a transportation company, had an outdated website from 2010.
@@ -83,7 +83,7 @@ function Home() {
                             </div>
                         </a>
                         {/* Project 2 */}
-                        <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-8">
+                        <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-8 hover:scale-105 ease-in-out duration-300">
                             <h1 className="text-2xl mb-4">FTSF webshop</h1>
                             <p>
                                 During the development of the webshop, my responsibilities included setting up the Front-End structure and converting the design to views.
@@ -97,7 +97,7 @@ function Home() {
                         </div>
                         {/* Project 3 */}
                         <a href="https://www.competa.com" target="_blank" rel="noreferrer noopener">
-                            <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-8">
+                            <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-8 hover:scale-105 ease-in-out duration-300">
                                 <h1 className="text-2xl mb-4">Competa IT</h1>
                                 <p>
                                     In revising the Competa website, I was responsible for converting the design into a WordPress compatible theme.
@@ -109,7 +109,7 @@ function Home() {
                             </div>
                         </a>
                         {/* Project 4 */}
-                        <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-8">
+                        <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-8 hover:scale-105 ease-in-out duration-300">
                             <h1 className="text-2xl mb-4">My portfolio</h1>
                             <p>
                                 I used Tailwind CSS, JavaScript, and React to make my new portfolio website. I kept it simple and made everything from scratch.
@@ -123,7 +123,7 @@ function Home() {
                         </div>
                         <a href="https://github.com/williamvdm" target="_blank" rel="noreferrer noopener">
                             <div className="bg-azure dark:bg-azure rounded-2xl p-4 flex justify-center items-center">
-                                <h1 className="text-xl font-bold text-white dark:text-black">View more on GitHub</h1>
+                                <h1 className="text-xl font-bold text-white dark:text-white">View more on GitHub</h1>
                             </div>
                         </a>
                     </div>
