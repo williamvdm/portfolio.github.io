@@ -31,7 +31,7 @@ function Home() {
                 backgroundRepeat: "no-repeat",
             }}>
             <div className="container mx-auto lg:w-1/3">
-                <Notify />
+                {/* <Notify /> */}
                 {/* <Nav /> */}
                 <header className="mt-12 p-8 flex mx-auto flex-col xl:flex-row items-center justify-center rounded" role="banner">
                     <img className="rounded-full w-52 mb-4 xl:mb-0 xl:mr-12 self-center" src={Me} alt="Portrait of William" />
