@@ -21,11 +21,9 @@ import SassLogo from "../../assets/svg/sass.svg";
 import VueLogo from "../../assets/svg/vue.svg";
 
 function Home() {
-    // const [isOpenToWork, setIsOpenToWork] = useState(true);
-
     return (
         <div className="flex justify-center bg-white dark:bg-darkblue min-h-screen p-8 text-black dark:text-gray-200">
-            <div className="container mx-auto xl:w-1/3">
+            <div className="container mx-auto lg:w-1/3">
                 <Notify />
                 {/* <Nav /> */}
                 <section className="mt-12 p-8 flex mx-auto flex-col xl:flex-row items-center justify-center rounded">
@@ -61,17 +59,17 @@ function Home() {
                         I enjoy building responsive and user-friendly web applications that solve real-world problems. I am constantly learning and exploring new technologies to enhance my skills and stay up-to-date with industry trends.
                     </p>
                     <a href="mailto:williamvdm@live.nl">
-                            <div className="bg-azure dark:bg-azure rounded-2xl p-4 flex justify-center items-center">
-                                <h1 className="text-xl font-bold text-white dark:text-white">Contact me!</h1>
-                            </div>
-                        </a>
+                        <div className="bg-azure dark:bg-azure rounded-2xl p-4 flex justify-center items-center">
+                            <h1 className="text-xl font-bold text-white dark:text-white">Contact me!</h1>
+                        </div>
+                    </a>
                 </section>
                 <section className="projects mt-14">
                     <h2 className="text-3xl font-bold mb-4">Projects</h2>
                     <div className="grid grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-8">
                         {/* Project 1 */}
                         <a href="https://www.meijmat.nl" target="_blank" rel="noreferrer noopener">
-                            <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-8 hover:scale-105 ease-in-out duration-300">
+                            <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-8 flex flex-col h-full hover:scale-105 ease-in-out duration-300">
                                 <h1 className="text-2xl mb-4">Meijmat BV</h1>
                                 <p>
                                     Meijmat, a transportation company, had an outdated website from 2010.
@@ -83,7 +81,7 @@ function Home() {
                             </div>
                         </a>
                         {/* Project 2 */}
-                        <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-8 hover:scale-105 ease-in-out duration-300">
+                        <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-8 flex flex-col h-full hover:scale-105 ease-in-out duration-300">
                             <h1 className="text-2xl mb-4">FTSF webshop</h1>
                             <p>
                                 During the development of the webshop, my responsibilities included setting up the Front-End structure and converting the design to views.
@@ -97,7 +95,7 @@ function Home() {
                         </div>
                         {/* Project 3 */}
                         <a href="https://www.competa.com" target="_blank" rel="noreferrer noopener">
-                            <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-8 hover:scale-105 ease-in-out duration-300">
+                            <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-8 flex flex-col h-full hover:scale-105 ease-in-out duration-300">
                                 <h1 className="text-2xl mb-4">Competa IT</h1>
                                 <p>
                                     In revising the Competa website, I was responsible for converting the design into a WordPress compatible theme.
@@ -109,7 +107,7 @@ function Home() {
                             </div>
                         </a>
                         {/* Project 4 */}
-                        <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-8 hover:scale-105 ease-in-out duration-300">
+                        <div className="bg-ghost dark:bg-ebonyclay rounded-2xl p-8 flex flex-col h-full hover:scale-105 ease-in-out duration-300">
                             <h1 className="text-2xl mb-4">My portfolio</h1>
                             <p>
                                 I used Tailwind CSS, JavaScript, and React to make my new portfolio website. I kept it simple and made everything from scratch.
