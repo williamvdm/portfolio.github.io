@@ -30,7 +30,7 @@ function Home() {
                 backgroundPosition: "top",
                 backgroundRepeat: "no-repeat",
             }}>
-            <div className="container mx-auto lg:w-1/3">
+            <div className="container mx-auto 2xl:w-1/3">
                 {/* <Notify /> */}
                 {/* <Nav /> */}
                 <header className="mt-12 p-8 flex mx-auto flex-col xl:flex-row items-center justify-center rounded" role="banner">
@@ -72,7 +72,7 @@ function Home() {
                     </section>
                     <section className="projects mt-14" aria-labelledby="projects-heading">
                         <h2 id="projects-heading" className="text-3xl font-bold mb-4">Projects</h2>
-                        <div className="grid grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-8">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                             {/* Project 1 */}
                             <a href="https://www.meijmat.nl" target="_blank" rel="noreferrer noopener" className="block bg-ghost dark:bg-ebonyclay rounded-2xl p-8 flex flex-col h-full hover:scale-105 ease-in-out duration-300" aria-label="Meijmat BV project">
                                 <h3 className="text-2xl mb-4">Meijmat BV</h3>
