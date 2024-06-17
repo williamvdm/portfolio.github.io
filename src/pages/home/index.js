@@ -5,7 +5,7 @@ import React from "react";
 import Footer from "../../layouts/footer.js";
 
 // Components
-import Notify from "../../components/notify.js";
+// import Notify from "../../components/notify.js";
 
 // Assets
 import Me from "../../assets/me.png";
